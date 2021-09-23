@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
-  background-color: mintcream;
+  background-color: #ffe0e0;
   }
 
 
@@ -27,11 +27,11 @@ main {
 h1 {
   font-size: 3em;
   text-align: left;
-  color: slateblue;}
+  color: LightCoral;}
 
 
 h2 {
-  color: steelblue;}
+  color: LightCoral;}
 
 
 li {
