@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset= "utf-8"/>
+		<title>Michelle Tang</title>
+    <link rel="stylesheet" href="css/css.css">
+  </head>
+  <body>
+    <header>
+      <h1>American Resturant Catering Order Request Form</h1>
+    </header>
+    <main>
+      <div class="customerinfo">
+        <form action="/action_page_customerinfo.php">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <label for="email">Enter your email:</label><br>
+          <input type="email" id="email" name="email"><br>
+          <label for="phone">Enter your phone number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="mealchoice">
+        <p>Meal Choice (choose one):</p>
+        <form action="/action_page_mealchoice.php">
+          <input type="radio" id="beef" name="mealchoice" value="beef">
+          <label for="beef">beef</label><br>
+          <input type="radio" id="chicken" name="mealchoice" value="chicken">
+          <label for="chicken">chicken</label><br>
+          <input type="radio" id="fish" name="mealchoice" value="fish">
+          <label for="fish">fish</label><br>
+          <input type="radio" id="vegan" name="mealchoice" value="vegan">
+          <label for="vegan">vegan</label><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="comments">
+        <form action="/action_page_comments.php">
+          <label for="custcomments">Comments:</label>
+          <input type="text" id="custcomments" name="custcomments"><br><br>
+          <input type="submit" value="Submit"><br>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

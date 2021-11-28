@@ -1,0 +1,33 @@
+body {
+  font-family: 'century gothic', sans-serif;
+  font-size: 0.5em;
+  background-color: white;
+  }
+
+header {
+  font-size: 2.5em;
+  color: Coral;
+  background-color: MistyRose;
+  text-align: center;
+}
+
+.customerinfo {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: left;
+}
+
+.mealchoice {
+  background-color: lightgreen;
+  color: black;
+  padding: 40px;
+  text-align: left;
+}
+
+.comments {
+  background-color: LemonChiffon;
+  color: black;
+  padding: 40px;
+  text-align: left;
+}
